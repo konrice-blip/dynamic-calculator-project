@@ -1,0 +1,95 @@
+body{ 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+#calculator {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 25px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display {
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 50%);
+}
+
+button:active {
+    background-color: hsl(0, 0%, 70%);
+
+}
+
+.operator-btn {
+    background-color: hsl(35, 100%, 55%);
+
+}
+
+.operator-btn:hover {
+    background-color: hsl(35, 100%, 65%);
+
+}
+
+.operator-btn:active {
+    background-color: hsl(35, 100%, 75%);
+
+}
+
+.calc-switcher {
+    position: absolute;   /* 👈 Takes it out of the flexbox layout entirely */
+    bottom: 30px;         /* 👈 Pins it 30px from the very bottom of the screen */
+    left: 50%;            /* 👈 Moves it to the middle horizontally */
+    transform: translateX(-50%); /* 👈 Perfectly centers it */
+    text-align: center;
+    z-index: 10;          /* 👈 Makes sure it stays on top of the background */
+}
+
+.switch-btn {
+    background-color: #333;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.2s;
+    display: inline-block; /* 👈 Ensures padding behaves nicely */
+}
+
+.switch-btn:hover {
+    background-color: hsl(35, 100%, 55%);
+}
