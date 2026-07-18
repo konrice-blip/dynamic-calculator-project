@@ -1,11 +1,12 @@
-body{ 
+body { 
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh; 
     background-color: hsl(0, 0%, 95%);
-    height: 100vh
+    padding: 20px 0;   
+    box-sizing: border-box;
 }
 
 .container {
@@ -13,9 +14,10 @@ body{
     background-color: hsl(0, 0%, 15%);
     border-radius: 30px;
     max-width: 1000px;
-    overflow: hidden;
+    width: 100%;       
     padding: 30px;
-    overflow: hidden;
+    overflow: hidden; 
+    box-sizing: border-box;
 }
 
 button {
