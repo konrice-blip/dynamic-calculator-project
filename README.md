@@ -15,4 +15,4 @@ Built entirely with semantic HTML5, modern CSS3 (Flexbox/Grid), and vanilla Java
 
 The project maintains a clean, decoupled folder structure ensuring that the logic and styling for each calculator type remain completely independent and organized.
 
-Live Demo(https://dynamic-calculator-project.vercel.app/)
+[Live Demo](https://dynamic-calculator-project.vercel.app/)
