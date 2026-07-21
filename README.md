@@ -4,6 +4,8 @@ A clean, modern, and adaptive web calculator platform that allows users to seaml
 
 Built entirely with semantic HTML5, modern CSS3 (Flexbox/Grid), and vanilla JavaScript.
 
+👉 **[LIVE DEMO](https://dynamic-calculator-project.vercel.app/)**
+
 ## 🚀 Overview
 * **Standard Mode:** Includes core operators (`+`, `-`, `*`, `/`), high-contrast layout, and quick clear functions.
 * **Scientific Mode:** Extends the standard layout with advanced mathematical functions.
@@ -15,4 +17,3 @@ Built entirely with semantic HTML5, modern CSS3 (Flexbox/Grid), and vanilla Java
 
 The project maintains a clean, decoupled folder structure ensuring that the logic and styling for each calculator type remain completely independent and organized.
 
-[Live Demo](https://dynamic-calculator-project.vercel.app/)
