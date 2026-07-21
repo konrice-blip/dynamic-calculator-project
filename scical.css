@@ -55,12 +55,12 @@ button:active {
 }
 
 .calc-switcher {
-    position: absolute;   /* 👈 Takes it out of the flexbox layout entirely */
-    bottom: 30px;         /* 👈 Pins it 30px from the very bottom of the screen */
-    left: 50%;            /* 👈 Moves it to the middle horizontally */
-    transform: translateX(-50%); /* 👈 Perfectly centers it */
+    position: absolute;   
+    bottom: 30px;         
+    left: 50%;            
+    transform: translateX(-50%); 
     text-align: center;
-    z-index: 10;          /* 👈 Makes sure it stays on top of the background */
+    z-index: 10;         
 }
 
 .switch-btn {
@@ -72,7 +72,7 @@ button:active {
     border-radius: 5px;
     font-weight: bold;
     transition: 0.2s;
-    display: inline-block; /* 👈 Ensures padding behaves nicely */
+    display: inline-block;
 }
 
 .switch-btn:hover {
